@@ -1,0 +1,152 @@
+@charset "UTF-8";
+header#cabecalho{
+    border-bottom: 1px #606060 solid;
+    /*background: linear-gradient(rgb(0,206,209), white);*/
+    
+}
+header#cabecalho h1, h2{
+    font-family: Bookman Old Style;
+    
+}
+header#cabecalho img{
+    width: 320px;
+    
+}
+header#cabecalho h1{
+    font-size: 30pt;
+    font-style: italic;
+    margin-top: 50px;
+}
+header#cabecalho h2{
+    font-size: 13pt;
+    font-style: italic;
+    text-align: right;
+}
+div#interface{
+    width: 900px;
+    margin: 0px auto 0px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+body{
+    background-color: whitesmoke;
+    background-image: url(fundo/testefundo3.png);
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    /*background: linear-gradient(gray, white);*/
+    }
+h4{
+    font-size: 12pt;
+    }
+h3{
+    font-size: 16px;
+    }
+h1{
+    text-align: center;
+    }
+h2{
+    text-align: center;
+    }
+p{
+    text-indent: 40px;
+    font-size: 14px;
+    text-align: justify;
+    }
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: #dddd;
+    padding: 8px;
+    margin: 2px;
+    margin-left: 12px;
+    /*transition: background-color 1s;*/
+    border-radius: 10px;
+    box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+nav#menu li:active{
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5), inset 1px 1px 1px rgba(0, 0, 0, 0.5);
+    transform: translate(3px, 3px);
+    
+}
+nav#menu li a{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+nav#menu h4{
+    display: none;
+}
+nav#menu ul{
+    display: block;
+}
+nav#menu li:hover{
+    background-color: darkgrey;
+}
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+}
+footer#rodape ul{
+    list-style: none;
+    text-transform: uppercase;
+}
+footer#rodape li{
+    display: inline-block;
+    background-color: #dddd;
+    padding: 8px;
+    margin: 2px;
+    transition: background-color 1s;
+    border-radius: 10px;
+}
+footer#rodape ul{
+    display: block;
+}
+footer#rodape li:hover{
+    background-color: #606060;
+}
+footer#rodape a{
+    color: #000000;
+    text-decoration: none;
+}
+footer#rodape a:hover{
+    text-decoration: underline;
+    color: white;
+}
+footer#rodape {
+    clear: both;
+    
+}
+footer{
+    text-align: center;
+}
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060;
+    margin: auto;
+}
+
+figure.foto-legenda{
+    padding: 40px;
+    display: flex;
+    border-top: 1px dashed gray;
+
+}
+figure.foto-legenda figcaption{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 10px
+}
+figure.foto-legenda a{
+    color: #000000;
+    text-decoration: none;
+    
+}
+div.texto h3{
+    font-size: 20pt;
+}
