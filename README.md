@@ -1,2 +1,11 @@
-# Primeiro-site
-site criado com conhecimentos do curso de HTML/CSS do curso em video (curso antigo). foi um projeto de introdução à Engenharia da computação na faculdade federal do ceará no primeiro semestre
+
+# Primeira versão do Tinder de Projetos
+
+Esse foi o site apresentado no meu primeiro semestre no curso de engenharia de computação.
+
+## Ferramentas usadas:
+
+- HTML
+- CSS
+
+_como foi apenas uma apresentação não implementei nada de backend_ 
